@@ -71,12 +71,12 @@ export default function Home() {
   return (
     <div>
       <div className="bg-black rounded-xl shadow-lg w-full max-w-md p-4">
-        <h1 className="text-xl font-semibold text-center mb-4 text-amber-50">
+        <h1 className="text-xl font-semibold text-center mb-4 text-white">
           📋 Daftar Absensi TikTok
         </h1>
         <div
           ref={containerRef}
-          className="max-h-56 overflow-y-auto scroll-smooth space-y-3">
+          className="max-h-56 overflow-y-auto scroll-smooth space-y-3 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
           {absenList.map((user) => (
             <div
               key={user.uniqueId}
@@ -87,7 +87,7 @@ export default function Home() {
                 className="w-10 h-10 rounded-full border border-gray-300"
               />
               <div>
-                <p className="text-sm font-medium text-amber-50">
+                <p className="text-sm font-medium text-white">
                   {user.nickname}
                 </p>
                 <p className="text-green-600 text-sm">Hadir mas ✅</p>
