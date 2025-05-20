@@ -70,7 +70,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="bg-white rounded-xl shadow-lg w-full max-w-md p-4">
+      <div className="bg-transparent rounded-xl shadow-lg w-full max-w-md p-4">
         <h1 className="text-xl font-semibold text-center mb-4">
           📋 Daftar Absensi TikTok
         </h1>
