@@ -23,6 +23,7 @@ export default function Home() {
     ws.onmessage = (event) => {
       try {
         const message = JSON.parse(event.data);
+
         const { event: evt, data: eventData } = message;
 
         if (evt === "chat") {
@@ -90,7 +91,7 @@ export default function Home() {
                 <p className="text-sm font-medium text-white">
                   {user.nickname}
                 </p>
-                <p className="text-green-600 text-sm">Hadir mas ✅</p>
+                <p className="text-green-300 text-sm">Hadir mas ✅</p>
               </div>
             </div>
           ))}
