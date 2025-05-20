@@ -91,7 +91,7 @@ export default function Home() {
                 <p className="text-sm font-medium text-white">
                   {user.nickname}
                 </p>
-                <p className="text-green-300 text-sm">Hadir mas ✅</p>
+                <p className="text-white text-sm">Hadir mas ✅</p>
               </div>
             </div>
           ))}
