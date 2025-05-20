@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <div>
       <div className="bg-transparent rounded-xl shadow-lg w-full max-w-md p-4">
-        <h1 className="text-xl font-semibold text-center mb-4">
+        <h1 className="text-xl font-semibold text-center mb-4 text-amber-50">
           📋 Daftar Absensi TikTok
         </h1>
         <div
@@ -87,7 +87,9 @@ export default function Home() {
                 className="w-10 h-10 rounded-full border border-gray-300"
               />
               <div>
-                <p className="text-sm font-medium">{user.nickname}</p>
+                <p className="text-sm font-medium text-amber-50">
+                  {user.nickname}
+                </p>
                 <p className="text-green-600 text-sm">Hadir mas ✅</p>
               </div>
             </div>
